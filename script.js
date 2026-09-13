@@ -10,7 +10,7 @@
    BASIC SETTINGS
    ========================================================= */
 
-const WHATSAPP_NUMBER = "9779708913951";
+const WHATSAPP_NUMBER = "+9779764805164";
 
 const CART_STORAGE_KEY = "cafeMithilaCart";
 
@@ -630,7 +630,7 @@ const menuItems = [
     ne: "मिथिला थाली",
     mai: "मिथिला थाली",
     price: 420,
-    image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80",
+    image: " https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/ef/e4/d9/caption.jpg?w=1200&h=1200&s=1",
     desc: "A colorful traditional platter with regional flavors."
   },
 
@@ -642,7 +642,7 @@ const menuItems = [
     ne: "लिट्टी चोखा",
     mai: "लिट्टी चोखा",
     price: 220,
-    image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
+    image: "https://static.toiimg.com/thumb/53188495.cms?width=1200&height=900",
     desc: "Roasted wheat balls served with smoky mashed vegetables."
   },
 
@@ -654,7 +654,7 @@ const menuItems = [
     ne: "दही चिउरा",
     mai: "दही चूड़ा",
     price: 150,
-    image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80",
+    image: "https://c.ndtvimg.com/2020-01/p327h8o8_gur_625x300_14_January_20.jpg",
     desc: "A simple traditional combination of curd and beaten rice."
   },
 
@@ -666,185 +666,8 @@ const menuItems = [
     ne: "मखाना तरकारी",
     mai: "मखानाक तरकारी",
     price: 260,
-    image: "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=800&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQJw-WBKL0Zum-5YfswEONUz-nHop5ictjaOfKfVwCPniCuMQTvQWhJKHL&s=10",
     desc: "Mithila-style curry made with roasted fox nuts."
-  },
-
-  {
-    id: 5,
-    cat: "mithila",
-    popular: true,
-    en: "Dal Pitha",
-    ne: "दाल पिठा",
-    mai: "दाल पिठा",
-    price: 180,
-    image: "https://images.unsplash.com/photo-1625398407796-82650a8c135f?auto=format&fit=crop&w=800&q=80",
-    desc: "Soft traditional rice dumplings with flavorful dal filling."
-  },
-
-  {
-    id: 6,
-    cat: "mithila",
-    en: "Tarua",
-    ne: "तरुवा",
-    mai: "तरुआ",
-    price: 170,
-    image: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
-    desc: "Crispy seasonal vegetables coated in a spiced batter."
-  },
-
-  {
-    id: 7,
-    cat: "mithila",
-    en: "Chura Ghugni",
-    ne: "चिउरा घुघनी",
-    mai: "चूड़ा घुघनी",
-    price: 160,
-    image: "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80",
-    desc: "Beaten rice paired with spicy chickpea ghugni."
-  },
-
-  {
-    id: 8,
-    cat: "mithila",
-    en: "Makhana Kheer",
-    ne: "मखाना खीर",
-    mai: "मखाना खीर",
-    price: 190,
-    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
-    desc: "Creamy traditional dessert made with makhana and milk."
-  },
-
-  {
-    id: 9,
-    cat: "mithila",
-    en: "Thekua",
-    ne: "ठेकुआ",
-    mai: "ठेकुआ",
-    price: 100,
-    image: "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=800&q=80",
-    desc: "Traditional sweet biscuit flavored with jaggery."
-  },
-
-  {
-    id: 10,
-    cat: "mithila",
-    en: "Malpua",
-    ne: "मालपुवा",
-    mai: "मालपुआ",
-    price: 140,
-    image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
-    desc: "Soft sweet pancakes with a festive Mithila touch."
-  },
-
-  {
-    id: 11,
-    cat: "mithila",
-    en: "Dal Puri",
-    ne: "दाल पुरी",
-    mai: "दाल पुरी",
-    price: 170,
-    image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
-    desc: "Crispy puri filled with seasoned lentils."
-  },
-
-  {
-    id: 12,
-    cat: "mithila",
-    en: "Chura Dahi",
-    ne: "चिउरा दही",
-    mai: "चूड़ा दही",
-    price: 130,
-    image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80",
-    desc: "Cool curd with soft beaten rice."
-  },
-
-  {
-    id: 13,
-    cat: "mithila",
-    en: "Anarsa",
-    ne: "अनरसा",
-    mai: "अनरसा",
-    price: 120,
-    image: "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=800&q=80",
-    desc: "Traditional rice-based Mithila sweet."
-  },
-
-  {
-    id: 14,
-    cat: "mithila",
-    en: "Tilkut",
-    ne: "तिलकुट",
-    mai: "तिलकुट",
-    price: 130,
-    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
-    desc: "Sesame and jaggery sweet with a traditional taste."
-  },
-
-  {
-    id: 15,
-    cat: "mithila",
-    en: "Khaja",
-    ne: "खाजा",
-    mai: "खाजा",
-    price: 120,
-    image: "https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=800&q=80",
-    desc: "Layered crispy traditional sweet."
-  },
-
-  {
-    id: 16,
-    cat: "mithila",
-    en: "Murhi Mix",
-    ne: "मुरही मिक्स",
-    mai: "मुरही मिक्स",
-    price: 100,
-    image: "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=800&q=80",
-    desc: "Crunchy puffed rice snack with spices."
-  },
-
-  {
-    id: 17,
-    cat: "mithila",
-    en: "Aloo Tarua",
-    ne: "आलु तरुवा",
-    mai: "आलू तरुआ",
-    price: 150,
-    image: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
-    desc: "Crispy potato slices with regional spices."
-  },
-
-  {
-    id: 18,
-    cat: "mithila",
-    en: "Karela Tarua",
-    ne: "करेला तरुवा",
-    mai: "करैला तरुआ",
-    price: 160,
-    image: "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=800&q=80",
-    desc: "Crispy bitter gourd prepared Mithila style."
-  },
-
-  {
-    id: 19,
-    cat: "mithila",
-    en: "Baingan Tarua",
-    ne: "भन्टा तरुवा",
-    mai: "बैंगन तरुआ",
-    price: 160,
-    image: "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=800&q=80",
-    desc: "Spiced crispy eggplant slices."
-  },
-
-  {
-    id: 20,
-    cat: "mithila",
-    en: "Mithila Kadhi",
-    ne: "मिथिला कढी",
-    mai: "मिथिला कढ़ी",
-    price: 220,
-    image: "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=800&q=80",
-    desc: "Creamy yogurt curry with regional seasoning."
   },
 
 
@@ -858,7 +681,7 @@ const menuItems = [
     ne: "जनकपुर विशेष थाली",
     mai: "जनकपुर विशेष थाली",
     price: 480,
-    image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO2iq-KqBj2lD3alBglokGEjuwPmOVSDIUm5uPlaYovauRCvikWVPSGzs&s=10",
     desc: "A generous platter inspired by Janakpur flavors."
   },
 
@@ -870,96 +693,8 @@ const menuItems = [
     ne: "माछा थाली",
     mai: "माछ थाली",
     price: 520,
-    image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80",
+    image: "https://mughaldarbarbelur.in/wp-content/uploads/2025/08/generated-imag-19.jpeg",
     desc: "Rice, dal, vegetables and flavorful fish curry."
-  },
-
-  {
-    id: 23,
-    cat: "janakpur",
-    en: "Veg Mithila Thali",
-    ne: "शाकाहारी मिथिला थाली",
-    mai: "शाकाहारी मिथिला थाली",
-    price: 360,
-    image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80",
-    desc: "Vegetarian regional platter with seasonal sides."
-  },
-
-  {
-    id: 24,
-    cat: "janakpur",
-    en: "Chicken Mithila Thali",
-    ne: "चिकेन मिथिला थाली",
-    mai: "चिकेन मिथिला थाली",
-    price: 490,
-    image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=80",
-    desc: "Traditional platter with chicken curry."
-  },
-
-  {
-    id: 25,
-    cat: "janakpur",
-    en: "Local Goat Curry",
-    ne: "स्थानीय खसीको मासु",
-    mai: "स्थानीय बकराक मासु",
-    price: 390,
-    image: "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=800&q=80",
-    desc: "Slow-cooked goat curry with aromatic spices."
-  },
-
-  {
-    id: 26,
-    cat: "janakpur",
-    en: "Mithila Fish Curry",
-    ne: "मिथिला माछा करी",
-    mai: "मिथिला माछक करी",
-    price: 330,
-    image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80",
-    desc: "Spiced fish curry inspired by regional cooking."
-  },
-
-  {
-    id: 27,
-    cat: "janakpur",
-    en: "Aloo Tama",
-    ne: "आलु तामा",
-    mai: "आलू तामा",
-    price: 230,
-    image: "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=800&q=80",
-    desc: "Comforting potato and bamboo shoot curry."
-  },
-
-  {
-    id: 28,
-    cat: "janakpur",
-    en: "Seasonal Saag",
-    ne: "मौसमी साग",
-    mai: "मौसमी साग",
-    price: 150,
-    image: "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80",
-    desc: "Fresh seasonal greens prepared with spices."
-  },
-
-  {
-    id: 29,
-    cat: "janakpur",
-    en: "Mithila Mixed Vegetables",
-    ne: "मिथिला मिश्रित तरकारी",
-    mai: "मिथिला मिश्रित तरकारी",
-    price: 210,
-    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
-    desc: "Seasonal vegetables cooked with Mithila spices."
-  },
-
-  {
-    id: 30,
-    cat: "janakpur",
-    en: "Traditional Dal Bhat",
-    ne: "परम्परागत दाल भात",
-    mai: "परम्परागत दाल भात",
-    price: 280,
-    image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80",
-    desc: "Rice, lentils and homestyle seasonal sides."
   },
 
 
@@ -973,7 +708,7 @@ const menuItems = [
     ne: "पुरी तरकारी",
     mai: "पुरी तरकारी",
     price: 150,
-    image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
+    image: "https://lico.com.np/wp-content/uploads/2024/03/puri-tarkari-2.jpg",
     desc: "Fresh puri served with flavorful potato curry."
   },
 
@@ -984,96 +719,8 @@ const menuItems = [
     ne: "आलु पराठा",
     mai: "आलू पराठा",
     price: 140,
-    image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Fch-m-hZoOYndPhUHBh_4wpFOxarib4Wru-wxf-_NgQnXz-VRoKJISko&s=10",
     desc: "Crispy stuffed flatbread with potato filling."
-  },
-
-  {
-    id: 33,
-    cat: "breakfast",
-    en: "Plain Paratha",
-    ne: "सादा पराठा",
-    mai: "सादा पराठा",
-    price: 100,
-    image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
-    desc: "Flaky layered flatbread."
-  },
-
-  {
-    id: 34,
-    cat: "breakfast",
-    en: "Egg Paratha",
-    ne: "अण्डा पराठा",
-    mai: "अंडा पराठा",
-    price: 170,
-    image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
-    desc: "Paratha filled with seasoned egg."
-  },
-
-  {
-    id: 35,
-    cat: "breakfast",
-    en: "Chura Tarkari",
-    ne: "चिउरा तरकारी",
-    mai: "चूड़ा तरकारी",
-    price: 150,
-    image: "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80",
-    desc: "Beaten rice with spicy vegetable curry."
-  },
-
-  {
-    id: 36,
-    cat: "breakfast",
-    en: "Chole Bhature",
-    ne: "छोले भटुरे",
-    mai: "छोला भटूरा",
-    price: 220,
-    image: "https://images.unsplash.com/photo-1626132647523-66f5bf380027?auto=format&fit=crop&w=800&q=80",
-    desc: "Fluffy bhatura with spiced chickpeas."
-  },
-
-  {
-    id: 37,
-    cat: "breakfast",
-    en: "Masala Omelette",
-    ne: "मसला आमलेट",
-    mai: "मसाला आमलेट",
-    price: 140,
-    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80",
-    desc: "Egg omelette with herbs, onion and spices."
-  },
-
-  {
-    id: 38,
-    cat: "breakfast",
-    en: "Cheese Omelette",
-    ne: "चिज आमलेट",
-    mai: "चीज आमलेट",
-    price: 180,
-    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80",
-    desc: "Soft omelette with melted cheese."
-  },
-
-  {
-    id: 39,
-    cat: "breakfast",
-    en: "French Toast",
-    ne: "फ्रेन्च टोस्ट",
-    mai: "फ्रेन्च टोस्ट",
-    price: 170,
-    image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=800&q=80",
-    desc: "Golden toast with a lightly sweet finish."
-  },
-
-  {
-    id: 40,
-    cat: "breakfast",
-    en: "Pancake Stack",
-    ne: "प्यानकेक स्ट्याक",
-    mai: "प्यानकेक स्ट्याक",
-    price: 220,
-    image: "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=800&q=80",
-    desc: "Fluffy pancakes served with sweet toppings."
   },
 
 
@@ -1087,7 +734,7 @@ const menuItems = [
     ne: "भेज मोमो",
     mai: "भेज मोमो",
     price: 150,
-    image: "https://images.unsplash.com/photo-1496116218417-1e6f6b3f2f2c?auto=format&fit=crop&w=800&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVqC6nwE0f6I_g602w5DAV0v3Cl9fXJ3NY3693kgZyB0utWYRvXI8uFntI&s=10",
     desc: "Steamed dumplings filled with seasoned vegetables."
   },
 
@@ -1099,152 +746,10 @@ const menuItems = [
     ne: "चिकेन मोमो",
     mai: "चिकेन मोमो",
     price: 190,
-    image: "https://images.unsplash.com/photo-1496116218417-1e6f6b3f2f2c?auto=format&fit=crop&w=800&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfcN9m2gdl3p2KI-FnOPJT4zIr-vVDeYLCyZ9Q85HpF941y75tzhpwcTg&s=10",
     desc: "Juicy chicken dumplings with house chutney."
   },
 
-  {
-    id: 43,
-    cat: "snacks",
-    en: "Jhol Momo",
-    ne: "झोल मोमो",
-    mai: "झोल मोमो",
-    price: 190,
-    image: "https://images.unsplash.com/photo-1496116218417-1e6f6b3f2f2c?auto=format&fit=crop&w=800&q=80",
-    desc: "Momo covered in a rich spicy sesame broth."
-  },
-
-  {
-    id: 44,
-    cat: "snacks",
-    en: "Fried Momo",
-    ne: "फ्राइड मोमो",
-    mai: "फ्राइड मोमो",
-    price: 200,
-    image: "https://images.unsplash.com/photo-1496116218417-1e6f6b3f2f2c?auto=format&fit=crop&w=800&q=80",
-    desc: "Crispy fried dumplings with spicy dip."
-  },
-
-  {
-    id: 45,
-    cat: "snacks",
-    en: "Samosa",
-    ne: "समोसा",
-    mai: "समोसा",
-    price: 70,
-    image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
-    desc: "Crispy pastry filled with spiced potato."
-  },
-
-  {
-    id: 46,
-    cat: "snacks",
-    en: "Paneer Pakora",
-    ne: "पनीर पकौडा",
-    mai: "पनीर पकौड़ा",
-    price: 170,
-    image: "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=800&q=80",
-    desc: "Crispy gram-flour coated paneer bites."
-  },
-
-  {
-    id: 47,
-    cat: "snacks",
-    en: "Aloo Chop",
-    ne: "आलु चप",
-    mai: "आलू चप",
-    price: 100,
-    image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
-    desc: "Crispy potato snack with spicy seasoning."
-  },
-
-  {
-    id: 48,
-    cat: "snacks",
-    en: "Veg Pakora",
-    ne: "भेज पकौडा",
-    mai: "भेज पकौड़ा",
-    price: 130,
-    image: "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=800&q=80",
-    desc: "Mixed vegetable fritters served hot."
-  },
-
-  {
-    id: 49,
-    cat: "snacks",
-    en: "Chicken Pakora",
-    ne: "चिकेन पकौडा",
-    mai: "चिकेन पकौड़ा",
-    price: 190,
-    image: "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=800&q=80",
-    desc: "Crispy spiced chicken bites."
-  },
-
-  {
-    id: 50,
-    cat: "snacks",
-    en: "French Fries",
-    ne: "फ्रेन्च फ्राइज",
-    mai: "फ्रेन्च फ्राइज",
-    price: 130,
-    image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80",
-    desc: "Golden crispy fries."
-  },
-
-  {
-    id: 51,
-    cat: "snacks",
-    en: "Cheese Fries",
-    ne: "चिज फ्राइज",
-    mai: "चीज फ्राइज",
-    price: 180,
-    image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80",
-    desc: "Fries topped with creamy cheese."
-  },
-
-  {
-    id: 52,
-    cat: "snacks",
-    en: "Chilli Potato",
-    ne: "चिल्ली पोटेटो",
-    mai: "चिल्ली पोटेटो",
-    price: 180,
-    image: "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80",
-    desc: "Crispy potatoes tossed in spicy sauce."
-  },
-
-  {
-    id: 53,
-    cat: "snacks",
-    en: "Chilli Paneer",
-    ne: "चिल्ली पनीर",
-    mai: "चिल्ली पनीर",
-    price: 230,
-    image: "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80",
-    desc: "Paneer cubes tossed with peppers and sauce."
-  },
-
-  {
-    id: 54,
-    cat: "snacks",
-    en: "Chicken Wings",
-    ne: "चिकेन विंग्स",
-    mai: "चिकेन विंग्स",
-    price: 280,
-    image: "https://images.unsplash.com/photo-1527477396000-e27163b481c2?auto=format&fit=crop&w=800&q=80",
-    desc: "Crispy chicken wings with house seasoning."
-  },
-
-  {
-    id: 55,
-    cat: "snacks",
-    en: "Chicken Chilli",
-    ne: "चिकेन चिल्ली",
-    mai: "चिकेन चिल्ली",
-    price: 280,
-    image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=80",
-    desc: "Tender chicken with peppers and spicy sauce."
-  },
 
 
   /* ---------- MAIN COURSE ---------- */
@@ -1257,7 +762,7 @@ const menuItems = [
     ne: "दाल भात सेट",
     mai: "दाल भात सेट",
     price: 280,
-    image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj9sHNKafaV6NNguz9sLmuFZqFlSZBHdSfymD1wRjfDBe-OuCDKsKFSBI&s=10",
     desc: "Rice, dal, vegetables, pickle and seasonal sides."
   },
 
@@ -1268,152 +773,10 @@ const menuItems = [
     ne: "भेज फ्राइड राइस",
     mai: "भेज फ्राइड राइस",
     price: 190,
-    image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=800&q=80",
+    image: "https://www.kuchpakrahahai.in/wp-content/uploads/2026/03/fried-rice.jpg",
     desc: "Wok-tossed rice with fresh vegetables."
   },
 
-  {
-    id: 58,
-    cat: "main",
-    en: "Chicken Fried Rice",
-    ne: "चिकेन फ्राइड राइस",
-    mai: "चिकेन फ्राइड राइस",
-    price: 240,
-    image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=800&q=80",
-    desc: "Fried rice with seasoned chicken."
-  },
-
-  {
-    id: 59,
-    cat: "main",
-    en: "Egg Fried Rice",
-    ne: "अण्डा फ्राइड राइस",
-    mai: "अंडा फ्राइड राइस",
-    price: 220,
-    image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=800&q=80",
-    desc: "Fried rice with fluffy scrambled egg."
-  },
-
-  {
-    id: 60,
-    cat: "main",
-    en: "Veg Chowmein",
-    ne: "भेज चाउमिन",
-    mai: "भेज चाउमिन",
-    price: 180,
-    image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=800&q=80",
-    desc: "Stir-fried noodles with vegetables."
-  },
-
-  {
-    id: 61,
-    cat: "main",
-    en: "Chicken Chowmein",
-    ne: "चिकेन चाउमिन",
-    mai: "चिकेन चाउमिन",
-    price: 230,
-    image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=800&q=80",
-    desc: "Stir-fried noodles with chicken."
-  },
-
-  {
-    id: 62,
-    cat: "main",
-    en: "Egg Chowmein",
-    ne: "अण्डा चाउमिन",
-    mai: "अंडा चाउमिन",
-    price: 210,
-    image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=800&q=80",
-    desc: "Noodles tossed with egg and vegetables."
-  },
-
-  {
-    id: 63,
-    cat: "main",
-    en: "Veg Thukpa",
-    ne: "भेज थुक्पा",
-    mai: "भेज थुक्पा",
-    price: 200,
-    image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80",
-    desc: "Warm noodle soup with vegetables."
-  },
-
-  {
-    id: 64,
-    cat: "main",
-    en: "Chicken Thukpa",
-    ne: "चिकेन थुक्पा",
-    mai: "चिकेन थुक्पा",
-    price: 250,
-    image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80",
-    desc: "Comforting noodle soup with chicken."
-  },
-
-  {
-    id: 65,
-    cat: "main",
-    en: "Veg Pasta",
-    ne: "भेज पास्ता",
-    mai: "भेज पास्ता",
-    price: 230,
-    image: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
-    desc: "Creamy pasta with fresh vegetables."
-  },
-
-  {
-    id: 66,
-    cat: "main",
-    en: "Chicken Pasta",
-    ne: "चिकेन पास्ता",
-    mai: "चिकेन पास्ता",
-    price: 280,
-    image: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
-    desc: "Creamy pasta with tender chicken."
-  },
-
-  {
-    id: 67,
-    cat: "main",
-    en: "White Sauce Pasta",
-    ne: "ह्वाइट सस पास्ता",
-    mai: "ह्वाइट सस पास्ता",
-    price: 250,
-    image: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
-    desc: "Creamy white sauce pasta."
-  },
-
-  {
-    id: 68,
-    cat: "main",
-    en: "Red Sauce Pasta",
-    ne: "रेड सस पास्ता",
-    mai: "रेड सस पास्ता",
-    price: 240,
-    image: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
-    desc: "Pasta in a rich tomato sauce."
-  },
-
-  {
-    id: 69,
-    cat: "main",
-    en: "Margherita Pizza",
-    ne: "मार्गेरिटा पिज्जा",
-    mai: "मार्गेरिटा पिज्जा",
-    price: 320,
-    image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80",
-    desc: "Classic pizza with tomato, cheese and herbs."
-  },
-
-  {
-    id: 70,
-    cat: "main",
-    en: "Veg Loaded Pizza",
-    ne: "भेज लोडेड पिज्जा",
-    mai: "भेज लोडेड पिज्जा",
-    price: 380,
-    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80",
-    desc: "Pizza loaded with colorful vegetables."
-  },
 
 
   /* ---------- VEGETARIAN ---------- */
@@ -1426,7 +789,7 @@ const menuItems = [
     ne: "पनीर बटर मसला",
     mai: "पनीर बटर मसाला",
     price: 280,
-    image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=800&q=80",
+    image: "https://www.ruchiskitchen.com/wp-content/uploads/2020/12/Paneer-butter-masala-recipe-3.jpg",
     desc: "Soft paneer in a rich creamy tomato gravy."
   },
 
@@ -1437,96 +800,8 @@ const menuItems = [
     ne: "कडाई पनीर",
     mai: "कड़ाही पनीर",
     price: 290,
-    image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=800&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFEwr_l_He_5gm6w0TasDsFc6QxaJpZuZ_rVLrSnda25wmDDpNQJgbKJBw&s=10",
     desc: "Paneer cooked with peppers and aromatic spices."
-  },
-
-  {
-    id: 73,
-    cat: "veg",
-    en: "Palak Paneer",
-    ne: "पालक पनीर",
-    mai: "पालक पनीर",
-    price: 280,
-    image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=800&q=80",
-    desc: "Paneer in a smooth spinach gravy."
-  },
-
-  {
-    id: 74,
-    cat: "veg",
-    en: "Dal Tadka",
-    ne: "दाल तड्का",
-    mai: "दाल तड़का",
-    price: 180,
-    image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80",
-    desc: "Lentils tempered with aromatic spices."
-  },
-
-  {
-    id: 75,
-    cat: "veg",
-    en: "Dal Makhani",
-    ne: "दाल मखनी",
-    mai: "दाल मखनी",
-    price: 220,
-    image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80",
-    desc: "Slow-cooked creamy black lentils."
-  },
-
-  {
-    id: 76,
-    cat: "veg",
-    en: "Aloo Jeera",
-    ne: "आलु जीरा",
-    mai: "आलू जीरा",
-    price: 170,
-    image: "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80",
-    desc: "Potatoes tossed with cumin and herbs."
-  },
-
-  {
-    id: 77,
-    cat: "veg",
-    en: "Mix Veg Curry",
-    ne: "मिश्रित तरकारी",
-    mai: "मिश्रित तरकारी",
-    price: 210,
-    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
-    desc: "Fresh vegetables in a flavorful curry."
-  },
-
-  {
-    id: 78,
-    cat: "veg",
-    en: "Mushroom Chilli",
-    ne: "मशरूम चिल्ली",
-    mai: "मशरूम चिल्ली",
-    price: 230,
-    image: "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80",
-    desc: "Mushrooms tossed with peppers and sauce."
-  },
-
-  {
-    id: 79,
-    cat: "veg",
-    en: "Veg Manchurian",
-    ne: "भेज मन्चुरियन",
-    mai: "भेज मन्चुरियन",
-    price: 220,
-    image: "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80",
-    desc: "Crispy vegetable balls in savory sauce."
-  },
-
-  {
-    id: 80,
-    cat: "veg",
-    en: "Jeera Rice",
-    ne: "जीरा राइस",
-    mai: "जीरा राइस",
-    price: 160,
-    image: "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80",
-    desc: "Fragrant basmati rice with cumin."
   },
 
 
@@ -1540,7 +815,7 @@ const menuItems = [
     ne: "बटर चिकेन",
     mai: "बटर चिकेन",
     price: 320,
-    image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=80",
+    image: "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2024-12-butter-chicken%2Fbutter-chicken-323",
     desc: "Tender chicken in a rich buttery tomato gravy."
   },
 
@@ -1551,96 +826,8 @@ const menuItems = [
     ne: "चिकेन करी",
     mai: "चिकेन करी",
     price: 300,
-    image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvFAWQ0tMdy9Sjd3i66t_dIscx5lHHXFMKv81cYipgXpEUhf_166i3tlw&s=10",
     desc: "Homestyle chicken curry with aromatic spices."
-  },
-
-  {
-    id: 83,
-    cat: "nonveg",
-    en: "Kadai Chicken",
-    ne: "कडाई चिकेन",
-    mai: "कड़ाही चिकेन",
-    price: 330,
-    image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=80",
-    desc: "Chicken cooked with peppers and spices."
-  },
-
-  {
-    id: 84,
-    cat: "nonveg",
-    en: "Chicken Tikka",
-    ne: "चिकेन टिक्का",
-    mai: "चिकेन टिक्का",
-    price: 300,
-    image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=800&q=80",
-    desc: "Char-grilled marinated chicken pieces."
-  },
-
-  {
-    id: 85,
-    cat: "nonveg",
-    en: "Chicken Seekh Kebab",
-    ne: "चिकेन सीख कबाब",
-    mai: "चिकेन सीख कबाब",
-    price: 320,
-    image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=800&q=80",
-    desc: "Juicy spiced chicken kebab."
-  },
-
-  {
-    id: 86,
-    cat: "nonveg",
-    en: "Fish Fry",
-    ne: "फ्राइड माछा",
-    mai: "फ्राइड माछ",
-    price: 280,
-    image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80",
-    desc: "Crispy seasoned fish fillet."
-  },
-
-  {
-    id: 87,
-    cat: "nonveg",
-    en: "Fish Curry",
-    ne: "माछा करी",
-    mai: "माछक करी",
-    price: 300,
-    image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80",
-    desc: "Fish simmered in aromatic curry."
-  },
-
-  {
-    id: 88,
-    cat: "nonveg",
-    en: "Chicken Biryani",
-    ne: "चिकेन बिरयानी",
-    mai: "चिकेन बिरयानी",
-    price: 320,
-    image: "https://images.unsplash.com/photo-1563379091339-03246963d96c?auto=format&fit=crop&w=800&q=80",
-    desc: "Fragrant rice layered with spiced chicken."
-  },
-
-  {
-    id: 89,
-    cat: "nonveg",
-    en: "Mutton Biryani",
-    ne: "मटन बिरयानी",
-    mai: "मटन बिरयानी",
-    price: 390,
-    image: "https://images.unsplash.com/photo-1563379091339-03246963d96c?auto=format&fit=crop&w=800&q=80",
-    desc: "Aromatic rice with tender spiced mutton."
-  },
-
-  {
-    id: 90,
-    cat: "nonveg",
-    en: "Egg Curry",
-    ne: "अण्डा करी",
-    mai: "अंडा करी",
-    price: 220,
-    image: "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=800&q=80",
-    desc: "Boiled eggs in a rich curry sauce."
   },
 
 
@@ -1654,7 +841,7 @@ const menuItems = [
     ne: "मसला चिया",
     mai: "मसाला चिया",
     price: 70,
-    image: "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=800&q=80",
+    image: "https://junifoods.com/wp-content/uploads/2022/12/Nepali-Masala-Tea-Chiya-%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A5%80-%E0%A4%9A%E0%A4%BF%E0%A4%AF%E0%A4%BE.jpg",
     desc: "Warm milk tea with aromatic spices."
   },
 
@@ -1666,96 +853,8 @@ const menuItems = [
     ne: "दूध चिया",
     mai: "दूध चिया",
     price: 60,
-    image: "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=800&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXMKJL5aRaTK31ZDRiqQY5u4f76HvqTDRQ-y529Eb_4PZNeQg4Juzh_G7O&s=10",
     desc: "Classic Nepal-style milk tea."
-  },
-
-  {
-    id: 93,
-    cat: "chiya",
-    en: "Black Tea",
-    ne: "ब्ल्याक टी",
-    mai: "ब्लैक टी",
-    price: 50,
-    image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80",
-    desc: "Light and refreshing black tea."
-  },
-
-  {
-    id: 94,
-    cat: "chiya",
-    en: "Lemon Tea",
-    ne: "लेमन टी",
-    mai: "लेमन टी",
-    price: 70,
-    image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=80",
-    desc: "Refreshing tea with lemon."
-  },
-
-  {
-    id: 95,
-    cat: "chiya",
-    en: "Ginger Tea",
-    ne: "अदुवा चिया",
-    mai: "अदुवा चिया",
-    price: 70,
-    image: "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=800&q=80",
-    desc: "Warm tea infused with fresh ginger."
-  },
-
-  {
-    id: 96,
-    cat: "chiya",
-    en: "Espresso",
-    ne: "एस्प्रेसो",
-    mai: "एस्प्रेसो",
-    price: 130,
-    image: "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=80",
-    desc: "Rich concentrated coffee shot."
-  },
-
-  {
-    id: 97,
-    cat: "chiya",
-    en: "Cappuccino",
-    ne: "क्यापुचिनो",
-    mai: "क्यापुचिनो",
-    price: 190,
-    image: "https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=800&q=80",
-    desc: "Espresso with steamed milk and foam."
-  },
-
-  {
-    id: 98,
-    cat: "chiya",
-    en: "Cafe Latte",
-    ne: "क्याफे ल्याटे",
-    mai: "क्याफे ल्याटे",
-    price: 200,
-    image: "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=800&q=80",
-    desc: "Smooth espresso with creamy steamed milk."
-  },
-
-  {
-    id: 99,
-    cat: "chiya",
-    en: "Cold Coffee",
-    ne: "कोल्ड कफी",
-    mai: "कोल्ड कफी",
-    price: 220,
-    image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80",
-    desc: "Chilled creamy coffee."
-  },
-
-  {
-    id: 100,
-    cat: "chiya",
-    en: "Hazelnut Coffee",
-    ne: "हेजलनट कफी",
-    mai: "हेजलनट कफी",
-    price: 240,
-    image: "https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=800&q=80",
-    desc: "Coffee with a sweet hazelnut aroma."
   },
 
 
@@ -1769,7 +868,7 @@ const menuItems = [
     ne: "मीठो लस्सी",
     mai: "मीठ लस्सी",
     price: 130,
-    image: "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+    image: "https://www.sharmispassions.com/wp-content/uploads/2023/08/sweet-lassi5.jpg",
     desc: "Cool creamy yogurt drink."
   },
 
@@ -1780,75 +879,11 @@ const menuItems = [
     ne: "आँप लस्सी",
     mai: "आमक लस्सी",
     price: 170,
-    image: "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+    image: "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/mango-lassi-recipe.jpg",
     desc: "Creamy lassi blended with mango."
   },
 
-  {
-    id: 103,
-    cat: "drinks",
-    en: "Plain Lassi",
-    ne: "सादा लस्सी",
-    mai: "सादा लस्सी",
-    price: 110,
-    image: "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
-    desc: "Fresh yogurt drink."
-  },
-
-  {
-    id: 104,
-    cat: "drinks",
-    en: "Fresh Lemonade",
-    ne: "फ्रेस लेमोनेड",
-    mai: "फ्रेश लेमोनेड",
-    price: 120,
-    image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80",
-    desc: "Fresh lemon drink served chilled."
-  },
-
-  {
-    id: 105,
-    cat: "drinks",
-    en: "Lemon Soda",
-    ne: "लेमन सोडा",
-    mai: "लेमन सोडा",
-    price: 130,
-    image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80",
-    desc: "Sparkling lemon refresher."
-  },
-
-  {
-    id: 106,
-    cat: "drinks",
-    en: "Mango Shake",
-    ne: "आँप शेक",
-    mai: "आमक शेक",
-    price: 180,
-    image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80",
-    desc: "Thick creamy mango shake."
-  },
-
-  {
-    id: 107,
-    cat: "drinks",
-    en: "Banana Shake",
-    ne: "केरा शेक",
-    mai: "केराक शेक",
-    price: 160,
-    image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80",
-    desc: "Creamy banana milkshake."
-  },
-
-  {
-    id: 108,
-    cat: "drinks",
-    en: "Chocolate Shake",
-    ne: "चकलेट शेक",
-    mai: "चकलेट शेक",
-    price: 190,
-    image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80",
-    desc: "Rich chocolate milkshake."
-  },
+ 
 
 
   /* ---------- SWEETS ---------- */
@@ -1861,7 +896,7 @@ const menuItems = [
     ne: "गुलाब जामुन",
     mai: "गुलाब जामुन",
     price: 100,
-    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfoU7b-BqgMW_rh6z7_-EXjx9fu19QgUp0AH9dR8nD166vwkWuxctUBUqY&s=10",
     desc: "Soft milk-solid sweets soaked in syrup."
   },
 
@@ -1872,97 +907,9 @@ const menuItems = [
     ne: "रसमलाई",
     mai: "रसमलाई",
     price: 160,
-    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+    image: "https://kitchenflavours.net/wp-content/uploads/2015/06/Rasmalai.jpg",
     desc: "Soft cheese dumplings in sweetened milk."
   },
-
-  {
-    id: 111,
-    cat: "sweets",
-    en: "Rice Kheer",
-    ne: "चामलको खीर",
-    mai: "चाउरक खीर",
-    price: 150,
-    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
-    desc: "Creamy rice pudding with cardamom."
-  },
-
-  {
-    id: 112,
-    cat: "sweets",
-    en: "Carrot Halwa",
-    ne: "गाजरको हलुवा",
-    mai: "गाजरक हलुआ",
-    price: 160,
-    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
-    desc: "Warm carrot dessert with milk and nuts."
-  },
-
-  {
-    id: 113,
-    cat: "sweets",
-    en: "Brownie",
-    ne: "ब्राउनी",
-    mai: "ब्राउनी",
-    price: 180,
-    image: "https://images.unsplash.com/photo-1564355808539-22fda35bed7e?auto=format&fit=crop&w=800&q=80",
-    desc: "Rich chocolate brownie."
-  },
-
-  {
-    id: 114,
-    cat: "sweets",
-    en: "Chocolate Cake",
-    ne: "चकलेट केक",
-    mai: "चकलेट केक",
-    price: 190,
-    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
-    desc: "Moist chocolate cake."
-  },
-
-  {
-    id: 115,
-    cat: "sweets",
-    en: "Cheesecake",
-    ne: "चिजकेक",
-    mai: "चीजकेक",
-    price: 240,
-    image: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=800&q=80",
-    desc: "Creamy cheesecake with a soft crust."
-  },
-
-  {
-    id: 116,
-    cat: "sweets",
-    en: "Vanilla Ice Cream",
-    ne: "भेनिला आइसक्रिम",
-    mai: "भेनिला आइसक्रिम",
-    price: 120,
-    image: "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=800&q=80",
-    desc: "Classic creamy vanilla ice cream."
-  },
-
-  {
-    id: 117,
-    cat: "sweets",
-    en: "Chocolate Ice Cream",
-    ne: "चकलेट आइसक्रिम",
-    mai: "चकलेट आइसक्रिम",
-    price: 130,
-    image: "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=800&q=80",
-    desc: "Smooth chocolate ice cream."
-  },
-
-  {
-    id: 118,
-    cat: "sweets",
-    en: "Fruit Cream",
-    ne: "फ्रुट क्रिम",
-    mai: "फ्रुट क्रिम",
-    price: 180,
-    image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80",
-    desc: "Fresh fruit folded into chilled cream."
-  }
 
 ];
 
